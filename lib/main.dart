@@ -15,5 +15,6 @@ class XylophoneApp extends StatelessWidget {
 //    "first commit"
 //  we are going to add consitnet knew features fora sneakers app
     //  research stock x to find new view to create
+//    plan workflow how views are intergrated
   }
 }
