@@ -10,12 +10,58 @@ class XylophoneApp extends StatelessWidget {
       home: Scaffold(
         body: SafeArea(
           child: Center(
-            child: FlatButton(
-              onPressed: () {
-                final player = AudioCache();
-                player.play('note1.wav');
-              },
-              child: Text("I'm Clickable, Hear me RAWR"),
+            child: Column(
+              children: [
+                FlatButton(
+                  onPressed: () {
+                    final player = AudioCache();
+                    player.play('note1.wav');
+                  },
+                  child: Text("I'm Clickable, Hear me RAWR"),
+                ),
+                FlatButton(
+                  onPressed: () {
+                    final player = AudioCache();
+                    player.play('note2.wav');
+                  },
+                  child: Text("I'm Clickable, Hear me RAWR"),
+                ),
+                FlatButton(
+                  onPressed: () {
+                    final player = AudioCache();
+                    player.play('note3.wav');
+                  },
+                  child: Text("I'm Clickable, Hear me RAWR"),
+                ),
+                FlatButton(
+                  onPressed: () {
+                    final player = AudioCache();
+                    player.play('note4.wav');
+                  },
+                  child: Text("I'm Clickable, Hear me RAWR"),
+                ),
+                FlatButton(
+                  onPressed: () {
+                    final player = AudioCache();
+                    player.play('note5.wav');
+                  },
+                  child: Text("I'm Clickable, Hear me RAWR"),
+                ),
+                FlatButton(
+                  onPressed: () {
+                    final player = AudioCache();
+                    player.play('note6.wav');
+                  },
+                  child: Text("I'm Clickable, Hear me RAWR"),
+                ),
+                FlatButton(
+                  onPressed: () {
+                    final player = AudioCache();
+                    player.play('note7.wav');
+                  },
+                  child: Text("I'm Clickable, Hear me RAWR"),
+                ),
+              ],
             ),
           ),
         ),
