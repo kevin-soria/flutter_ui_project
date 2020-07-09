@@ -53,7 +53,7 @@ class XylophoneApp extends StatelessWidget {
                   child: Text("I'm Clickable, Hear me RAWR"),
                 ),
                 FlatButton(
-                  color:
+                  color: Colors.cyan,
                   onPressed: () {
                     final player = AudioCache();
                     player.play('note6.wav');
