@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sheet_music/util/scales.dart';
-import 'package:english_words/english_words.dart';
+import 'package:audioplayers/audioplayers.dart';
 
 void main() => runApp(XylophoneApp());
 
@@ -10,7 +9,7 @@ class XylophoneApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         body: SafeArea(
-          child: Center(child: Text("whats next"),
+          child: Center(child: Text("whats next")),
         ),
       ),
     );
