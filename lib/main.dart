@@ -9,7 +9,7 @@ class XylophoneApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         body: SafeArea(
-          child: Center(child: Text("whats next")),
+          child: Center(child: FlatButton(onPressed: null, child: null))),
         ),
       ),
     );
