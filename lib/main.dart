@@ -15,60 +15,72 @@ class XylophoneApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.black,
         body: SafeArea(
-          child: Center(
-            child: Column(
-              children: [
-                FlatButton(
+          child: Column(
+            children: [
+              Expanded(
+                child: FlatButton(
                   color: Colors.blueGrey,
                   onPressed: () {
                     playSound(1);
                   },
                   child: Text("I'm Clickable, Hear me RAWR"),
                 ),
-                FlatButton(
+              ),
+              Expanded(
+                child: FlatButton(
                   color: Colors.redAccent,
                   onPressed: () {
                     playSound(2);
                   },
                   child: Text("I'm Clickable, Hear me RAWR"),
                 ),
-                FlatButton(
+              ),
+              Expanded(
+                child: FlatButton(
                   color: Colors.teal,
                   onPressed: () {
                     playSound(3);
                   },
                   child: Text("I'm Clickable, Hear me RAWR"),
                 ),
-                FlatButton(
+              ),
+              Expanded(
+                child: FlatButton(
                   color: Colors.deepPurpleAccent,
                   onPressed: () {
                     playSound(4);
                   },
                   child: Text("I'm Clickable, Hear me RAWR"),
                 ),
-                FlatButton(
+              ),
+              Expanded(
+                child: FlatButton(
                   color: Colors.deepOrange,
                   onPressed: () {
                     playSound(5);
                   },
                   child: Text("I'm Clickable, Hear me RAWR"),
                 ),
-                FlatButton(
+              ),
+              Expanded(
+                child: FlatButton(
                   color: Colors.cyan,
                   onPressed: () {
                     playSound(6);
                   },
                   child: Text("I'm Clickable, Hear me RAWR"),
                 ),
-                FlatButton(
+              ),
+              Expanded(
+                child: FlatButton(
                   color: Colors.amber,
                   onPressed: () {
                     playSound(7);
                   },
                   child: Text("I'm Clickable, Hear me RAWR"),
                 ),
-              ],
-            ),
+              ),
+            ],
           ),
         ),
       ),
