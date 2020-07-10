@@ -4,9 +4,9 @@ import 'package:audioplayers/audio_cache.dart';
 void main() => runApp(XylophoneApp());
 
 class XylophoneApp extends StatelessWidget {
-  void playSound() {
+  void playSound(int SoundNumber) {
     final player = AudioCache();
-    player.play('note1.wav');
+    player.play('note$soundNumber.wav');
   }
 
   @override
