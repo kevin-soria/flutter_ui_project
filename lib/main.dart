@@ -6,7 +6,7 @@ void main() => runApp(XylophoneApp());
 class XylophoneApp extends StatelessWidget {
   void playSound(int SoundNumber) {
     final player = AudioCache();
-    player.play('note$soundNumber.wav');
+    player.play('note$SoundNumber.wav');
   }
 
   @override
@@ -20,49 +20,49 @@ class XylophoneApp extends StatelessWidget {
                 FlatButton(
                   color: Colors.blueGrey,
                   onPressed: () {
-                    playSound();
+                    playSound(1);
                   },
                   child: Text("I'm Clickable, Hear me RAWR"),
                 ),
                 FlatButton(
                   color: Colors.redAccent,
                   onPressed: () {
-                    playSound();
+                    playSound(2);
                   },
                   child: Text("I'm Clickable, Hear me RAWR"),
                 ),
                 FlatButton(
                   color: Colors.teal,
                   onPressed: () {
-                    playSound();
+                    playSound(3);
                   },
                   child: Text("I'm Clickable, Hear me RAWR"),
                 ),
                 FlatButton(
                   color: Colors.deepPurpleAccent,
                   onPressed: () {
-                    playSound();
+                    playSound(4);
                   },
                   child: Text("I'm Clickable, Hear me RAWR"),
                 ),
                 FlatButton(
                   color: Colors.deepOrange,
                   onPressed: () {
-                    playSound();
+                    playSound(5);
                   },
                   child: Text("I'm Clickable, Hear me RAWR"),
                 ),
                 FlatButton(
                   color: Colors.cyan,
                   onPressed: () {
-                    playSound();
+                    playSound(6);
                   },
                   child: Text("I'm Clickable, Hear me RAWR"),
                 ),
                 FlatButton(
                   color: Colors.amber,
                   onPressed: () {
-                    playSound();
+                    playSound(7);
                   },
                   child: Text("I'm Clickable, Hear me RAWR"),
                 ),
